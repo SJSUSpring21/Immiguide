@@ -35,7 +35,7 @@ List of lawyers/services
 
 **Abstract**
 
-Build a website/web application to show different trends of firearm-related data to answer and depict firearm relation to various events. For eg: the increase in sales or changing firearm laws to relate to school shootings or an increase in violent crimes in that area. We can create and relate these data to create beautiful graphs and present an analysis on them.
+Build a website/web application to show different trends of firearm-related data to answer and depict firearm relation to various events. For eg: the increase in sales or changing firearm laws to relate to school shootings or an increase in violent crimes in that area. We can create and relate these data and present an analysis on them.
 
 **Input**
 
