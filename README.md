@@ -1,33 +1,54 @@
 
 ## Immigrants Helper
 
-**Abstract**: 
+**Problem Statement** : 
 
-After arriving in a foreign country many times immigrants face difficulties in securing the work, raising the children and accessing the services due to lack of knowledge of the procedure being followed on that land. Then they seek help on the web which takes many hours to find the relevant and best answers. 
-To mitigate this problem build a web application to help the new immigrants to know everything about the foreign land before and post landing in the US using the chatbot. 
-On every question asked by the user, in the backend the app mines all the answers available on the net and outputs the best answers to the user on the basis of likes and votes given to the answer.  
+After arriving in a foreign country many times immigrants face difficulties in securing the work, raising the children and accessing the services due to lack of knowledge of the procedure being followed on that land. Then they seek help on the web which takes many hours to find the relevant and best answers.
 
-**Input**: 
-Question asked by the user
+**Abstract** : 
 
-**Output**: 
-Top 3 answers to the question. 
+To mitigate above stated problem build a web application to help the new immigrants to know about the procedure being followed to acquire a certain type of visa, SSN, etc. using the chatbot.
+
+**Approach** :
+
+The NLP model is pretained with the questions and answers asked previously related to the immigrations and procedure post landing in the US using the selected website scraping using python libraries BeautifulSoup, Scarpy. The user will ask the question using the chatbot and if that related question is previously asked then the NLP model will generate the response. If the question is very specific and unique or the user wants to know detailed procedure then the web app gives the list of experts resides in the nearby area the user can contact personally and can contact through on the same web platform. 
+
+**Persona** :
+
+US immigrants 
+
+**Dataset** : 
+
+Most of the frequently asked questions and answers can be found by scraping the Quota, Reddit etc.. . For the detailed or specific questions, the user will be contacted to the experts. 
 
 
 
-## Justice on Wheels
+## Student Parking Plot
 
-**Abstract**: 
+**Problem Statement** : 
 
-A platform where all the legal services in India would be provided. The platform will have a network of certified lawyers with their field of expertise, experience, zip code of their area, etc. Users would get access to different categories such as divorce consultation, will, and trust, and so on.  This will enable solutions to each justice-related queries without roaming office to office. We can recommend lawyers to users depending upon their requirements and locations but the user would be the one who picks the final choice.
+Finding parking for student sometimes hard and students need to know if the parking is available for them during their class and if not , they can schedule their time to arrange commute with public transportation. Knowing parking availability before hand and ability to reserve parking with their class time frame would save a lot of time for them and also reducing stress.
 
-**Input**:
 
-Users requirement, zip code
+**Abstract** :
 
-**Output**:
+Design an app a web portal for students to be able automate browsing and finding the empty parking spot and reserve. The app can be updated in real time and shows how many parking are available on the guidance map.
 
-List of lawyers/services
+The user can automatically calculate the fee and user can pay the fees at the time of leaving. The app can generate the bar code for user to pay at leaving time. If user want to reserve in advance, he should pay and reserve the spot before arrival and when the user reserve the spot, the spot color changes to red and nobody can reserve that spot again until the color changes to white.
+
+
+**Approach** : 
+
+This app can be added advanced features in future and connect to IOT as an input and be able to synch with google maps and can be usable for public at the time of intelligent cities. 
+
+
+**Persona** :
+
+SJSU Student
+
+**Dataset** : 
+
+Can be achieved by university parking layout and numbers dedicated to each spot. Need to design the same layout in the app. Users have ability to register and insert their student information such as their names, Student ID,  their payment info ,….
 
 
 
