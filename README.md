@@ -23,7 +23,7 @@ Most of the frequently asked questions and answers can be found by scraping the 
 
 
 
-## Student Parking Plot
+## Student Parking Lot
 
 **Problem Statement** : 
 
@@ -32,14 +32,14 @@ Finding parking for student sometimes hard and students need to know if the park
 
 **Abstract** :
 
-Design an app a web portal for students to be able automate browsing and finding the empty parking spot and reserve. The app can be updated in real time and shows how many parking are available on the guidance map.
+Design an app or web portal for students to be able automate browsing and finding the empty parking spot and reserve. The app can be updated in real time and shows how many parking are available on the guidance map.
 
 The user can automatically calculate the fee and user can pay the fees at the time of leaving. The app can generate the bar code for user to pay at leaving time. If user want to reserve in advance, he should pay and reserve the spot before arrival and when the user reserve the spot, the spot color changes to red and nobody can reserve that spot again until the color changes to white.
 
 
 **Approach** : 
 
-This app can be added advanced features in future and connect to IOT as an input and be able to synch with google maps and can be usable for public at the time of intelligent cities. 
+This app can be added advanced features in future and connect to IOT as an input and be able to sync with google maps and can be usable for public at the time of intelligent cities. 
 
 
 **Persona** :
