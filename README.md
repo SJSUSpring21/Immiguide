@@ -65,3 +65,6 @@ Datasets available online
 **Output**
 
 Graphs and analytical data
+
+**Dataset**
+Firearm Datasets : https://drive.google.com/drive/folders/1oAfYyU2GDkSQfskRVxmSVHqGslyYPDdG?usp=sharing
