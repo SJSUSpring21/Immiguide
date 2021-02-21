@@ -62,6 +62,13 @@ Build a website/web application to show different trends of firearm-related data
 
 Datasets available online
 
+These are just the few examples of datasets we can use:
+
+https://usafacts.org/data/topics/security-safety/crime-and-justice/
+https://data.world/dash/us-firearms-commerce-2015
+https://data.world/nkrishnaswami/gun-deaths-by-county
+https://www.kaggle.com/jboysen/state-firearms
+
 **Output**
 
 Graphs and analytical data
