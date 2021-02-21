@@ -54,17 +54,20 @@ Can be achieved by university parking layout and numbers dedicated to each spot.
 
 ## Firearm Analysis
 
+**Problem Statement** :
+
+Find the correlation between firearms and crime using various factors related to the data by performing an analysis on them.
+
+ 
 **Abstract**
 
-Build a website/web application to show different trends of firearm-related data to answer and depict firearm relation to various events. For eg: the increase in sales or changing firearm laws to relate to school shootings or an increase in violent crimes in that area. We can create and relate these data and present an analysis on them.
+There are several studies that show that there is a correlation between the prevalence of gun ownership and an increase in  certain types of crime. Whether this association is attributable to firearm sales causing more crime is unclear. AN important limitation is the lack of measure of gun ownership. Thus we can try to map the various properties related to these firearms to the types of crimes in an area.  We can even include the number of public safety officers and arrests related to this data. An analysis can be done on all these factors by trying to map these relations. We can then show the analysis between various factors and how each factor affects the results differently. Thus the user can draw their own conclusions based on the dataset and the types of factors he is mapping.
 
-**Input**
+ 
+**Approach**
 
-Datasets available online
+We can find several suitable datasets online and use them to do our analysis. We can merge several attributes of the datasets and eliminate values not needed using appropriate methods. The analysis can be shown in a visual manner using suitable graphs.
 
-**Output**
-
-Graphs and analytical data
 
 **Dataset**
 Firearm Datasets : https://drive.google.com/drive/folders/1oAfYyU2GDkSQfskRVxmSVHqGslyYPDdG?usp=sharing
