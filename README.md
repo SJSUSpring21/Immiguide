@@ -20,3 +20,9 @@ US immigrants
 **Dataset** : 
 
 Most of the frequently asked questions and answers can be found by scraping the Quota, Reddit etc.. . For the detailed or specific questions, the user will be contacted to the experts. 
+
+
+## Project Architecture 
+
+
+![image](https://user-images.githubusercontent.com/29173069/110276206-84304300-7f87-11eb-91a7-ba401b4346cc.png)
