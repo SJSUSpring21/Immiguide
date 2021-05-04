@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+	<meta charset='UTF-8'>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+		<title>ImmiGuide &#8211; Just another WordPress site</title>
+<meta name='robots' content='max-image-preview:large' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="ImmiGuide &raquo; Feed" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ImmiGuide &raquo; Comments Feed" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/comments/feed/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/13.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/ec2-100-27-0-58.compute-1.amazonaws.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.7.1"}};
+			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55357,56424,8205,55356,57212],[55357,56424,8203,55356,57212])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='dashicons-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/css/dashicons.min.css?ver=5.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='admin-bar-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/css/admin-bar.min.css?ver=5.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/css/dist/block-library/style.min.css?ver=5.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/themeisle-companion/obfx_modules/gutenberg-blocks/assets/fontawesome/css/all.min.css?ver=2.10.4' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shims-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/themeisle-companion/obfx_modules/gutenberg-blocks/assets/fontawesome/css/v4-shims.min.css?ver=2.10.4' type='text/css' media='all' />
+<link rel='stylesheet' id='watsonconv-chatbox-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/conversation-watson/css/chatbox.css?ver=0.8.30' type='text/css' media='all' />
+<style id='watsonconv-chatbox-inline-css' type='text/css'>
+
+                #message-container #messages .watson-message,
+                    #watson-box #watson-header,
+                    #watson-fab
+                {
+                    background-color: rgb(35, 40, 45);
+                    color: white;
+                }
+
+                #message-container #messages .watson-message .typing-dot
+                {
+                    background-color: white;
+                }
+
+                #watson-box #message-send
+                {
+                    background-color: rgb(35, 40, 45);
+                }
+
+                #watson-box #message-send:hover
+                {
+                    background-color: rgba(35, 40, 45, 0.7);
+                }
+                
+                #watson-box #message-send svg
+                {
+                fill: white;
+                }
+
+                #message-container #messages .message-option
+                {
+                    border-color: rgb(35, 40, 45);
+                    color: rgb(35, 40, 45);
+                }
+
+                #message-container #messages .message-option:hover
+                {
+                    border-color: rgba(35, 40, 45, 0.7);
+                    color: rgba(35, 40, 45, 0.7);
+                }
+
+                #watson-box #messages > div:not(.message) > a
+                {
+                    color: rgb(35, 40, 45);
+                }
+
+                #watson-fab-float
+                {
+                    bottom: 5vmin;
+                    right: 5vmin;
+                }
+
+                #watson-fab-icon
+                {
+                    font-size: 28pt
+                }
+
+                #watson-fab-text
+                {
+                    font-size: 15pt
+                }
+
+                #watson-box .watson-font
+                {
+                    font-size: 11pt;
+                }
+                
+                #watson-header .watson-font {
+                    padding-left: 0;
+                }
+                
+                #watson-box .chatbox-logo
+                {
+                    display: none;
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                    background-image: url("");
+                    background-color: white;
+                    background-size: 100% 100%;
+                    background-repeat: no-repeat;
+                    border: solid 1px white;
+                    position: absolute;
+                    top: 50%;
+                    left: 7%;
+                    transform: translate(-50%,-50%);
+                    -webkit-transform: translate(-50%,-50%);
+                    -moz-transform: translate(-50%,-50%);
+                }
+
+                #watson-float
+                {
+                    bottom: 5vmin;
+                    right: 5vmin;
+                }
+                #watson-box
+                {
+                    width: 211.2pt;
+                    height: auto;
+                }
+                #message-container
+                {
+                    height: 200pt
+                }@media screen and (max-width:640px) { #watson-float #watson-box
+                    {
+                        width: 100%;
+                        height: 100%;
+                    }
+
+                    #watson-box
+                    {
+                        max-width: 100%;
+                    }
+
+                    #watson-box .watson-font
+                    {
+                        font-size: 14pt;
+                    }
+                
+                    #watson-float
+                    {
+                        top: 0;
+                        right: 0;
+                        bottom: 0;
+                        left: 0;
+                        transform: translate(0, 0) !important;
+                    }
+
+                    #watson-float #message-container
+                    {
+                        height: auto;
+                    }
+                    #chatbox-body
+                    {           
+                        display: flex; 
+                        flex-direction: column;
+                    } }
+</style>
+<link rel='stylesheet' id='hestia-clients-bar-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/themeisle-companion/obfx_modules/companion-legacy/assets/css/hestia/clients-bar.css?ver=5.7.1' type='text/css' media='all' />
+<link rel='stylesheet' id='bootstrap-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/themes/hestia/assets/bootstrap/css/bootstrap.min.css?ver=1.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='hestia-font-sizes-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/themes/hestia/assets/css/font-sizes.min.css?ver=3.0.16' type='text/css' media='all' />
+<link rel='stylesheet' id='hestia_style-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/themes/hestia/style.min.css?ver=3.0.16' type='text/css' media='all' />
+<style id='hestia_style-inline-css' type='text/css'>
+
+			div.wpforms-container-full .wpforms-form div.wpforms-field input.wpforms-error {
+				border: none;
+			}
+			div.wpforms-container .wpforms-form input[type=date],
+			div.wpforms-container .wpforms-form input[type=datetime],
+			div.wpforms-container .wpforms-form input[type=datetime-local],
+			div.wpforms-container .wpforms-form input[type=email],
+			div.wpforms-container .wpforms-form input[type=month],
+			div.wpforms-container .wpforms-form input[type=number],
+			div.wpforms-container .wpforms-form input[type=password],
+			div.wpforms-container .wpforms-form input[type=range],
+			div.wpforms-container .wpforms-form input[type=search],
+			div.wpforms-container .wpforms-form input[type=tel],
+			div.wpforms-container .wpforms-form input[type=text],
+			div.wpforms-container .wpforms-form input[type=time],
+			div.wpforms-container .wpforms-form input[type=url],
+			div.wpforms-container .wpforms-form input[type=week],
+			div.wpforms-container .wpforms-form select,
+			div.wpforms-container .wpforms-form textarea, .nf-form-cont input:not([type=button]),
+			div.wpforms-container .wpforms-form .form-group.is-focused .form-control {
+			  box-shadow: none;
+			}
+			
+			div.wpforms-container .wpforms-form input[type=date],
+			div.wpforms-container .wpforms-form input[type=datetime],
+			div.wpforms-container .wpforms-form input[type=datetime-local],
+			div.wpforms-container .wpforms-form input[type=email],
+			div.wpforms-container .wpforms-form input[type=month],
+			div.wpforms-container .wpforms-form input[type=number],
+			div.wpforms-container .wpforms-form input[type=password],
+			div.wpforms-container .wpforms-form input[type=range],
+			div.wpforms-container .wpforms-form input[type=search],
+			div.wpforms-container .wpforms-form input[type=tel],
+			div.wpforms-container .wpforms-form input[type=text],
+			div.wpforms-container .wpforms-form input[type=time],
+			div.wpforms-container .wpforms-form input[type=url],
+			div.wpforms-container .wpforms-form input[type=week],
+			div.wpforms-container .wpforms-form select,
+			div.wpforms-container .wpforms-form textarea, .nf-form-cont input:not([type=button]){
+				background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#d2d2d2, #d2d2d2);
+				float: none;
+				border: 0;
+				border-radius: 0;
+				background-color: transparent;
+				background-repeat: no-repeat;
+				background-position: center bottom, center calc(100% - 1px);
+				background-size: 0 2px, 100% 1px;
+				font-weight: 400;
+				transition: background 0s ease-out;
+			}
+			
+			div.wpforms-container .wpforms-form .form-group.is-focused .form-control{
+				outline: none;
+				background-size: 100% 2px,100% 1px;
+				transition-duration: 0.3s;
+			}
+			
+			/* Compatibility with WPForms */
+			div.wpforms-container .wpforms-form input[type=date].form-control,
+			div.wpforms-container .wpforms-form input[type=datetime].form-control,
+			div.wpforms-container .wpforms-form input[type=datetime-local].form-control,
+			div.wpforms-container .wpforms-form input[type=email].form-control,
+			div.wpforms-container .wpforms-form input[type=month].form-control,
+			div.wpforms-container .wpforms-form input[type=number].form-control,
+			div.wpforms-container .wpforms-form input[type=password].form-control,
+			div.wpforms-container .wpforms-form input[type=range].form-control,
+			div.wpforms-container .wpforms-form input[type=search].form-control,
+			div.wpforms-container .wpforms-form input[type=tel].form-control,
+			div.wpforms-container .wpforms-form input[type=text].form-control,
+			div.wpforms-container .wpforms-form input[type=time].form-control,
+			div.wpforms-container .wpforms-form input[type=url].form-control,
+			div.wpforms-container .wpforms-form input[type=week].form-control,
+			div.wpforms-container .wpforms-form select.form-control,
+			div.wpforms-container .wpforms-form textarea.form-control {
+			  border: none;
+			  padding: 7px 0;
+			  font-size: 14px;
+			}
+			div.wpforms-container .wpforms-form .wpforms-field-select select {
+			  border-radius: 3px;
+			}
+			div.wpforms-container .wpforms-form .wpforms-field-number input[type=number] {
+			  background-image: none;
+			  border-radius: 3px;
+			}
+			div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+			div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover {
+			  color: #ffffff;
+			  border: none;
+			}
+			
+			.home div.wpforms-container-full .wpforms-form {
+			  margin-left: 15px;
+			  margin-right: 15px;
+			}
+			
+			div.wpforms-container-full .wpforms-form .wpforms-field {
+			  padding: 0 0 24px 0 !important;
+			}
+			div.wpforms-container-full .wpforms-form .wpforms-submit-container {
+			  text-align: right;
+			}
+			div.wpforms-container-full .wpforms-form .wpforms-submit-container button {
+			  text-transform: uppercase;
+			}
+			div.wpforms-container-full .wpforms-form textarea {
+			  border: none !important;
+			}
+			div.wpforms-container-full .wpforms-form textarea:focus {
+			  border-width: 0 0 0 0 !important;
+			}
+			
+			.home div.wpforms-container .wpforms-form textarea {
+			  background-image: linear-gradient(#9c27b0, #9c27b0), linear-gradient(#d2d2d2, #d2d2d2);
+			  background-color: transparent;
+			  background-repeat: no-repeat;
+			  background-position: center bottom, center calc(100% - 1px);
+			  background-size: 0 2px, 100% 1px;
+			}
+			
+			/* WPForms media queries for front page and mobile*/
+			@media only screen and (max-width: 768px) {
+			  .wpforms-container-full .wpforms-form .wpforms-one-half, .wpforms-container-full .wpforms-form button {
+			    width: 100% !important;
+			    margin-left: 0 !important;
+			  }
+			  .wpforms-container-full .wpforms-form .wpforms-submit-container {
+			    text-align: center;
+			  }
+			}
+			
+			div.wpforms-container .wpforms-form input:focus,
+			div.wpforms-container .wpforms-form select:focus {
+			  border: none;
+			}
+		
+		form.form-group[id^=sib] input[type=text],
+		form.form-group[id^=sib] input[type=email],
+		form.form-group[id^=sib] select {
+		  border: none !important;
+		}
+.hestia-top-bar, .hestia-top-bar .widget.widget_shopping_cart .cart_list {
+			background-color: #363537
+		}
+		.hestia-top-bar .widget .label-floating input[type=search]:-webkit-autofill {
+			-webkit-box-shadow: inset 0 0 0px 9999px #363537
+		}.hestia-top-bar, .hestia-top-bar .widget .label-floating input[type=search], .hestia-top-bar .widget.widget_search form.form-group:before, .hestia-top-bar .widget.widget_product_search form.form-group:before, .hestia-top-bar .widget.widget_shopping_cart:before {
+			color: #ffffff
+		} 
+		.hestia-top-bar .widget .label-floating input[type=search]{
+			-webkit-text-fill-color:#ffffff !important 
+		}
+		.hestia-top-bar div.widget.widget_shopping_cart:before, .hestia-top-bar .widget.widget_product_search form.form-group:before, .hestia-top-bar .widget.widget_search form.form-group:before{
+			background-color: #ffffff
+		}.hestia-top-bar a, .hestia-top-bar .top-bar-nav li a {
+			color: #ffffff
+		}
+		.hestia-top-bar ul li a[href*="mailto:"]:before, .hestia-top-bar ul li a[href*="tel:"]:before{
+			background-color: #ffffff
+		}
+		.hestia-top-bar a:hover, .hestia-top-bar .top-bar-nav li a:hover {
+			color: #eeeeee
+		}
+		.hestia-top-bar ul li:hover a[href*="mailto:"]:before, .hestia-top-bar ul li:hover a[href*="tel:"]:before{
+			background-color: #eeeeee
+		}
+		
+
+		a,
+		.navbar .dropdown-menu li:hover > a,
+		.navbar .dropdown-menu li:focus > a,
+		.navbar .dropdown-menu li:active > a,
+		.navbar .navbar-nav > li .dropdown-menu li:hover > a,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:hover,
+		body:not(.home) .navbar-default .navbar-nav > .active:not(.btn) > a:focus,
+		a:hover,
+		.card-blog a.moretag:hover,
+		.card-blog a.more-link:hover,
+		.widget a:hover,
+		.has-text-color.has-accent-color,
+		p.has-text-color a {
+		    color:#e91e63;
+		}
+		
+		.svg-text-color{
+			fill:#e91e63;
+		}
+		
+		.pagination span.current, .pagination span.current:focus, .pagination span.current:hover {
+			border-color:#e91e63
+		}
+		
+		button,
+		button:hover,
+		.woocommerce .track_order button[type="submit"],
+		.woocommerce .track_order button[type="submit"]:hover,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover,
+		input[type="button"],
+		input[type="button"]:hover,
+		input[type="submit"],
+		input[type="submit"]:hover,
+		input#searchsubmit,
+		.pagination span.current,
+		.pagination span.current:focus,
+		.pagination span.current:hover,
+		.btn.btn-primary,
+		.btn.btn-primary:link,
+		.btn.btn-primary:hover,
+		.btn.btn-primary:focus,
+		.btn.btn-primary:active,
+		.btn.btn-primary.active,
+		.btn.btn-primary.active:focus,
+		.btn.btn-primary.active:hover,
+		.btn.btn-primary:active:hover,
+		.btn.btn-primary:active:focus,
+		.btn.btn-primary:active:hover,
+		.hestia-sidebar-open.btn.btn-rose,
+		.hestia-sidebar-close.btn.btn-rose,
+		.hestia-sidebar-open.btn.btn-rose:hover,
+		.hestia-sidebar-close.btn.btn-rose:hover,
+		.hestia-sidebar-open.btn.btn-rose:focus,
+		.hestia-sidebar-close.btn.btn-rose:focus,
+		.label.label-primary,
+		.hestia-work .portfolio-item:nth-child(6n+1) .label,
+		.nav-cart .nav-cart-content .widget .buttons .button,
+		.has-accent-background-color[class*="has-background"] {
+		    background-color: #e91e63;
+		}
+		
+		@media (max-width: 768px) {
+	
+			.navbar-default .navbar-nav>li>a:hover,
+			.navbar-default .navbar-nav>li>a:focus,
+			.navbar .navbar-nav .dropdown .dropdown-menu li a:hover,
+			.navbar .navbar-nav .dropdown .dropdown-menu li a:focus,
+			.navbar button.navbar-toggle:hover,
+			.navbar .navbar-nav li:hover > a i {
+			    color: #e91e63;
+			}
+		}
+		
+		body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close),
+		body:not(.woocommerce-page) .button:not([class^="fl-"]):not(hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button):not(.product_type_grouped):not(.product_type_external),
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit,
+		input[type="submit"],
+		input[type="button"],
+		.btn.btn-primary,
+		.widget_product_search button[type="submit"],
+		.hestia-sidebar-open.btn.btn-rose,
+		.hestia-sidebar-close.btn.btn-rose,
+		.everest-forms button[type=submit].everest-forms-submit-button {
+		    -webkit-box-shadow: 0 2px 2px 0 rgba(233,30,99,0.14),0 3px 1px -2px rgba(233,30,99,0.2),0 1px 5px 0 rgba(233,30,99,0.12);
+		    box-shadow: 0 2px 2px 0 rgba(233,30,99,0.14),0 3px 1px -2px rgba(233,30,99,0.2),0 1px 5px 0 rgba(233,30,99,0.12);
+		}
+		
+		.card .header-primary, .card .content-primary,
+		.everest-forms button[type=submit].everest-forms-submit-button {
+		    background: #e91e63;
+		}
+		
+		body:not(.woocommerce-page) .button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.add_to_cart_button):hover,
+		body:not(.woocommerce-page) button:not([class^="fl-"]):not(.hestia-scroll-to-top):not(.navbar-toggle):not(.close):hover,
+		div.wpforms-container .wpforms-form button[type=submit].wpforms-submit:hover,
+		input[type="submit"]:hover,
+		input[type="button"]:hover,
+		input#searchsubmit:hover,
+		.widget_product_search button[type="submit"]:hover,
+		.pagination span.current,
+		.btn.btn-primary:hover,
+		.btn.btn-primary:focus,
+		.btn.btn-primary:active,
+		.btn.btn-primary.active,
+		.btn.btn-primary:active:focus,
+		.btn.btn-primary:active:hover,
+		.hestia-sidebar-open.btn.btn-rose:hover,
+		.hestia-sidebar-close.btn.btn-rose:hover,
+		.pagination span.current:hover,
+		.everest-forms button[type=submit].everest-forms-submit-button:hover,
+ 		.everest-forms button[type=submit].everest-forms-submit-button:focus,
+ 		.everest-forms button[type=submit].everest-forms-submit-button:active {
+			-webkit-box-shadow: 0 14px 26px -12px rgba(233,30,99,0.42),0 4px 23px 0 rgba(0,0,0,0.12),0 8px 10px -5px rgba(233,30,99,0.2);
+		    box-shadow: 0 14px 26px -12px rgba(233,30,99,0.42),0 4px 23px 0 rgba(0,0,0,0.12),0 8px 10px -5px rgba(233,30,99,0.2);
+			color: #fff;
+		}
+		
+		.form-group.is-focused .form-control {
+			background-image: -webkit-gradient(linear,left top, left bottom,from(#e91e63),to(#e91e63)),-webkit-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+			background-image: -webkit-linear-gradient(linear,left top, left bottom,from(#e91e63),to(#e91e63)),-webkit-linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+			background-image: linear-gradient(linear,left top, left bottom,from(#e91e63),to(#e91e63)),linear-gradient(linear,left top, left bottom,from(#d2d2d2),to(#d2d2d2));
+		}
+		
+		.navbar:not(.navbar-transparent) li:not(.btn):hover > a,
+		.navbar li.on-section:not(.btn) > a,
+		.navbar.full-screen-menu.navbar-transparent li:not(.btn):hover > a,
+		.navbar.full-screen-menu .navbar-toggle:hover,
+		.navbar:not(.navbar-transparent) .nav-cart:hover,
+		.navbar:not(.navbar-transparent) .hestia-toggle-search:hover {
+				color:#e91e63
+		}
+		
+			.header-filter-gradient {
+				background: linear-gradient(45deg, rgba(168,29,132,1) 0%, rgb(234,57,111) 100%);
+			}
+			.has-text-color.has-header-gradient-color { color: #a81d84; }
+			.has-header-gradient-background-color[class*="has-background"] { background-color: #a81d84; }
+			
+		.has-text-color.has-background-color-color { color: #E5E5E5; }
+		.has-background-color-background-color[class*="has-background"] { background-color: #E5E5E5; }
+		
+.btn.btn-primary:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item), input[type="submit"]:not(.search-submit), body:not(.woocommerce-account) .woocommerce .button.woocommerce-Button, .woocommerce .product button.button, .woocommerce .product button.button.alt, .woocommerce .product #respond input#submit, .woocommerce-cart .blog-post .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #payment #place_order, .woocommerce-account.woocommerce-page button.button, .woocommerce .track_order button[type="submit"], .nav-cart .nav-cart-content .widget .buttons .button, .woocommerce a.button.wc-backward, body.woocommerce .wccm-catalog-item a.button, body.woocommerce a.wccm-button.button, form.woocommerce-form-coupon button.button, div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, div.woocommerce a.button.alt, div.woocommerce table.my_account_orders .button, .btn.colored-button, .btn.btn-left, .btn.btn-right, .btn:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item):not(.hestia-sidebar-open):not(.hestia-sidebar-close){ padding-top:15px;  padding-bottom:15px;  padding-left:33px;  padding-right:33px; }
+.btn.btn-primary:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item), input[type="submit"]:not(.search-submit), body:not(.woocommerce-account) .woocommerce .button.woocommerce-Button, .woocommerce .product button.button, .woocommerce .product button.button.alt, .woocommerce .product #respond input#submit, .woocommerce-cart .blog-post .woocommerce .cart-collaterals .cart_totals .checkout-button, .woocommerce-checkout #payment #place_order, .woocommerce-account.woocommerce-page button.button, .woocommerce .track_order button[type="submit"], .nav-cart .nav-cart-content .widget .buttons .button, .woocommerce a.button.wc-backward, body.woocommerce .wccm-catalog-item a.button, body.woocommerce a.wccm-button.button, form.woocommerce-form-coupon button.button, div.wpforms-container .wpforms-form button[type=submit].wpforms-submit, div.woocommerce a.button.alt, div.woocommerce table.my_account_orders .button, input[type="submit"].search-submit, .hestia-view-cart-wrapper .added_to_cart.wc-forward, .woocommerce-product-search button, .woocommerce-cart .actions .button, #secondary div[id^=woocommerce_price_filter] .button, .woocommerce div[id^=woocommerce_widget_cart].widget .buttons .button, .searchform input[type=submit], .searchform button, .search-form:not(.media-toolbar-primary) input[type=submit], .search-form:not(.media-toolbar-primary) button, .woocommerce-product-search input[type=submit], .btn.colored-button, .btn.btn-left, .btn.btn-right, .btn:not(.colored-button):not(.btn-left):not(.btn-right):not(.btn-just-icon):not(.menu-item):not(.hestia-sidebar-open):not(.hestia-sidebar-close){border-radius:3px;}
+h1, h2, h3, h4, h5, h6, .hestia-title, .hestia-title.title-in-content, p.meta-in-content , .info-title, .card-title,
+		.page-header.header-small .hestia-title, .page-header.header-small .title, .widget h5, .hestia-title,
+		.title, .footer-brand, .footer-big h4, .footer-big h5, .media .media-heading,
+		.carousel h1.hestia-title, .carousel h2.title,
+		.carousel span.sub-title, .hestia-about h1, .hestia-about h2, .hestia-about h3, .hestia-about h4, .hestia-about h5 {
+			font-family: Garamond, serif;
+		}
+@media (min-width: 769px){
+			.page-header.header-small .hestia-title,
+			.page-header.header-small .title,
+			h1.hestia-title.title-in-content,
+			.main article.section .has-title-font-size {
+				font-size: 41px;
+			}}@media (max-width: 768px){
+			.page-header.header-small .hestia-title,
+			.page-header.header-small .title,
+			h1.hestia-title.title-in-content,
+			.main article.section .has-title-font-size {
+				font-size: 26px;
+			}}@media (max-width: 480px){
+			.page-header.header-small .hestia-title,
+			.page-header.header-small .title,
+			h1.hestia-title.title-in-content,
+			.main article.section .has-title-font-size {
+				font-size: 26px;
+			}}
+
+		.page-template-builder-fullwidth-std .header > .elementor {
+			padding-top: 70px;
+		}
+
+</style>
+<link rel='stylesheet' id='hestia_fonts-css'  href='https://fonts.googleapis.com/css?family=Roboto%3A300%2C400%2C500%2C700%7CRoboto+Slab%3A400%2C700&#038;subset=latin%2Clatin-ext&#038;ver=3.0.16' type='text/css' media='all' />
+<link rel='stylesheet' id='wpforms-admin-bar-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.6.6' type='text/css' media='all' />
+<style id='wpforms-admin-bar-inline-css' type='text/css'>
+#wpadminbar .wpforms-menu-notification-indicator { background-color: #d63638 !important; }#wpadminbar .wpforms-menu-notification-counter { background-color: #d63638 !important; }
+</style>
+<link rel='stylesheet' id='sib-front-css-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/mailin/css/mailin-front.css?ver=5.7.1' type='text/css' media='all' />
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<script type='text/javascript' id='sib-front-js-js-extra'>
+/* <![CDATA[ */
+var sibErrMsg = {"invalidMail":"Please fill out valid email address","requiredField":"Please fill out required fields","invalidDateFormat":"Please fill out valid date format","invalidSMSFormat":"Please fill out valid phone number"};
+var ajax_sib_front_object = {"ajax_url":"http:\/\/ec2-100-27-0-58.compute-1.amazonaws.com\/wp-admin\/admin-ajax.php","ajax_nonce":"63f7ac9206","flag_url":"http:\/\/ec2-100-27-0-58.compute-1.amazonaws.com\/wp-content\/plugins\/mailin\/img\/flags\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/mailin/js/mailin-front.js?ver=1619752791' id='sib-front-js-js'></script>
+<link rel="https://api.w.org/" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-json/" /><link rel="alternate" type="application/json" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-json/wp/v2/pages/608" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 5.7.1" />
+<link rel="canonical" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/" />
+<link rel='shortlink' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/' />
+<link rel="alternate" type="application/json+oembed" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fec2-100-27-0-58.compute-1.amazonaws.com%2F" />
+<link rel="alternate" type="text/xml+oembed" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-json/oembed/1.0/embed?url=http%3A%2F%2Fec2-100-27-0-58.compute-1.amazonaws.com%2F&#038;format=xml" />
+<!-- Enter your scripts here --><script>
+				( function() {
+					function wpforms_js_error_loading() {
+						
+						if ( typeof window.wpforms !== 'undefined' ) {
+							return;
+						}
+						
+						var forms = document.querySelectorAll( '.wpforms-form' );
+						
+						if ( ! forms.length ) {
+							return;
+						}
+						
+						var error = document.createElement( 'div' );
+
+						error.classList.add( 'wpforms-error-container' );
+						error.innerHTML = 'Heads up! WPForms has detected an issue with JavaScript on this page. JavaScript is required for this form to work properly, so this form may not work as expected. See our <a href="https://wpforms.com/docs/getting-support-wpforms/" target="_blank" rel="noopener noreferrer">troubleshooting guide</a> to learn more or contact support.<p>This message is only displayed to site administrators.</p>';
+
+						forms.forEach( function( form ) {
+						
+							if ( ! form.querySelector( '.wpforms-error-container' ) ) {
+								form.insertBefore( error.cloneNode( true ), form.firstChild );
+							}
+						} );
+					};
+				
+					if ( document.readyState === 'loading' ) {
+						document.addEventListener( 'DOMContentLoaded', wpforms_js_error_loading );
+					} else {
+						wpforms_js_error_loading();
+					}
+				}() );
+			</script><style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><style type="text/css" media="print">#wpadminbar { display:none; }</style>
+	<style type="text/css" media="screen">
+	html { margin-top: 32px !important; }
+	* html body { margin-top: 32px !important; }
+	@media screen and ( max-width: 782px ) {
+		html { margin-top: 46px !important; }
+		* html body { margin-top: 46px !important; }
+	}
+</style>
+	</head>
+
+<body class="home page-template-default page page-id-608 logged-in admin-bar no-customize-support blog-post header-layout-default">
+		<script type="text/javascript">
+		(function() {
+			var request, b = document.body, c = 'className', cs = 'customize-support', rcs = new RegExp('(^|\\s+)(no-)?'+cs+'(\\s+|$)');
+
+				request = true;
+	
+			b[c] = b[c].replace( rcs, ' ' );
+			// The customizer requires postMessage and CORS (if the site is cross domain).
+			b[c] += ( window.postMessage && request ? ' ' : ' no-' ) + cs;
+		}());
+	</script>
+			<div id="wpadminbar" class="nojq nojs">
+						<div class="quicklinks" id="wp-toolbar" role="navigation" aria-label="Toolbar">
+				<ul id='wp-admin-bar-root-default' class="ab-top-menu"><li id='wp-admin-bar-wp-logo' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/about.php'><span class="ab-icon"></span><span class="screen-reader-text">About WordPress</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-wp-logo-default' class="ab-submenu"><li id='wp-admin-bar-about'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/about.php'>About WordPress</a></li></ul><ul id='wp-admin-bar-wp-logo-external' class="ab-sub-secondary ab-submenu"><li id='wp-admin-bar-wporg'><a class='ab-item' href='https://wordpress.org/'>WordPress.org</a></li><li id='wp-admin-bar-documentation'><a class='ab-item' href='https://wordpress.org/support/'>Documentation</a></li><li id='wp-admin-bar-support-forums'><a class='ab-item' href='https://wordpress.org/support/forums/'>Support</a></li><li id='wp-admin-bar-feedback'><a class='ab-item' href='https://wordpress.org/support/forum/requests-and-feedback'>Feedback</a></li></ul></div></li><li id='wp-admin-bar-site-name' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/'>ImmiGuide</a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-site-name-default' class="ab-submenu"><li id='wp-admin-bar-dashboard'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/'>Dashboard</a></li></ul><ul id='wp-admin-bar-appearance' class="ab-submenu"><li id='wp-admin-bar-themes'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/themes.php'>Themes</a></li><li id='wp-admin-bar-widgets'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/widgets.php'>Widgets</a></li><li id='wp-admin-bar-menus'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/nav-menus.php'>Menus</a></li><li id='wp-admin-bar-background' class="hide-if-customize"><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/themes.php?page=custom-background'>Background</a></li><li id='wp-admin-bar-header' class="hide-if-customize"><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/themes.php?page=custom-header'>Header</a></li></ul></div></li><li id='wp-admin-bar-customize' class="hide-if-no-customize"><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/customize.php?url=http%3A%2F%2Fec2-100-27-0-58.compute-1.amazonaws.com%2F'>Customize</a></li><li id='wp-admin-bar-updates'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/update-core.php' title='1 Plugin Update, 2 Theme Updates'><span class="ab-icon"></span><span class="ab-label">3</span><span class="screen-reader-text">1 Plugin Update, 2 Theme Updates</span></a></li><li id='wp-admin-bar-comments'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/edit-comments.php'><span class="ab-icon"></span><span class="ab-label awaiting-mod pending-count count-0" aria-hidden="true">0</span><span class="screen-reader-text comments-in-moderation-text">0 Comments in moderation</span></a></li><li id='wp-admin-bar-new-content' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/post-new.php'><span class="ab-icon"></span><span class="ab-label">New</span></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-new-content-default' class="ab-submenu"><li id='wp-admin-bar-new-post'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/post-new.php'>Post</a></li><li id='wp-admin-bar-new-media'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/media-new.php'>Media</a></li><li id='wp-admin-bar-new-page'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/post-new.php?post_type=page'>Page</a></li><li id='wp-admin-bar-new-user'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/user-new.php'>User</a></li><li id='wp-admin-bar-wpforms'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/admin.php?page=wpforms-builder'>WPForms</a></li></ul></div></li><li id='wp-admin-bar-edit'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/post.php?post=608&#038;action=edit'>Edit Page</a></li><li id='wp-admin-bar-wpforms-menu' class="menupop"><a class='ab-item' aria-haspopup="true" href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/admin.php?page=wpforms-overview'>WPForms</a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-wpforms-menu-default' class="ab-submenu"><li id='wp-admin-bar-wpforms-forms'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/admin.php?page=wpforms-overview'>All Forms</a></li><li id='wp-admin-bar-wpforms-add-new'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/admin.php?page=wpforms-builder'>Add New</a></li><li id='wp-admin-bar-wpforms-community'><a class='ab-item' href='https://www.facebook.com/groups/wpformsvip/' target='_blank' rel='noopener noreferrer'>Community</a></li><li id='wp-admin-bar-wpforms-support'><a class='ab-item' href='https://wpforms.com/docs/' target='_blank' rel='noopener noreferrer'>Support</a></li></ul></div></li></ul><ul id='wp-admin-bar-top-secondary' class="ab-top-secondary ab-top-menu"><li id='wp-admin-bar-search' class="admin-bar-search"><div class="ab-item ab-empty-item" tabindex="-1"><form action="http://ec2-100-27-0-58.compute-1.amazonaws.com/" method="get" id="adminbarsearch"><input class="adminbar-input" name="s" id="adminbar-search" type="text" value="" maxlength="150" /><label for="adminbar-search" class="screen-reader-text">Search</label><input type="submit" class="adminbar-button" value="Search"/></form></div></li><li id='wp-admin-bar-my-account' class="menupop with-avatar"><a class='ab-item' aria-haspopup="true" href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/profile.php'>Howdy, <span class="display-name">admin</span><img alt='' src='http://1.gravatar.com/avatar/73f36fc0a7bb7d381154e668f893146c?s=26&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/73f36fc0a7bb7d381154e668f893146c?s=52&#038;d=mm&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' loading='lazy'/></a><div class="ab-sub-wrapper"><ul id='wp-admin-bar-user-actions' class="ab-submenu"><li id='wp-admin-bar-user-info'><a class='ab-item' tabindex="-1" href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/profile.php'><img alt='' src='http://1.gravatar.com/avatar/73f36fc0a7bb7d381154e668f893146c?s=64&#038;d=mm&#038;r=g' srcset='http://1.gravatar.com/avatar/73f36fc0a7bb7d381154e668f893146c?s=128&#038;d=mm&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' loading='lazy'/><span class='display-name'>admin</span></a></li><li id='wp-admin-bar-edit-profile'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/profile.php'>Edit Profile</a></li><li id='wp-admin-bar-logout'><a class='ab-item' href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-login.php?action=logout&#038;_wpnonce=fed42c4edc'>Log Out</a></li></ul></div></li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-login.php?action=logout&#038;_wpnonce=fed42c4edc">Log Out</a>
+					</div>
+
+			<div class="wrapper ">
+		<header class="header ">
+			<div style="display: none"></div>		<nav class="navbar navbar-default navbar-fixed-top  navbar-color-on-scroll navbar-transparent hestia_left">
+						<div class="container">
+						<div class="navbar-header">
+			<div class="title-logo-wrapper">
+				<a class="navbar-brand" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/"
+						title="ImmiGuide">
+					<p>ImmiGuide</p></a>
+			</div>
+								<div class="navbar-toggle-wrapper">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navigation">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="sr-only">Toggle Navigation</span>
+			</button>
+					</div>
+				</div>
+					</div>
+					</nav>
+				</header>
+		<div id="carousel-hestia-generic" class="carousel slide" data-ride="carousel" 
+				>
+			<div class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					
+		<div class="item active">
+			<div class="page-header">
+				
+				<div class="container">
+										<div class="row hestia-big-title-content">
+								<div class="
+		 big-title-slider-content text-center col-sm-8 col-sm-offset-2 		">
+							<h1 class="hestia-title">Immigrant Chat Portal </h1>
+										<span class="sub-title">Get Your Answers Here!</span>
+								</div>
+							</div>
+									</div><!-- /.container -->
+
+				<div class="header-filter"
+					style="background-image: url(http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/uploads/2021/04/statue-of-liberty-statue-freedom-2577933.jpg)"				></div><!-- /.header-filter -->
+							</div><!-- /.page-header -->
+		</div>
+						</div>
+			</div>
+		</div>
+			<div class="main  main-raised ">
+				<section class="hestia-features " id="features" data-sorder="hestia_features" >
+						<div class="container">
+									<div class="row">
+						<div class="col-md-8 col-md-offset-2 hestia-features-title-area">
+							<h2 class="hestia-title">References</h2><h5 class="description">These are some useful websites for Immigrants . Check them out for more information</h5>						</div>
+					</div>
+							<div class="hestia-features-content">
+		<div class="row">				<div class="col-xs-12 col-md-4 feature-box">
+					<div class="hestia-info">
+						<a href="https://www.uscis.gov/" target="_blank">									<div class="icon" style="color:#e91e63">
+										<i class="fab fa-weixin"></i>
+									</div>
+																								<h4 class="info-title">USCIS</h4>
+																				</a>
+																<p>U.S. Citizenship and Immigration Services is an agency of the United States Department of Homeland Security that administers the country&#039;s naturalization and immigration system.<br /><br /></p>
+											</div>
+				</div>
+								<div class="col-xs-12 col-md-4 feature-box">
+					<div class="hestia-info">
+						<a href="https://www.ssa.gov/" target="_blank">									<div class="icon" style="color:#00bcd4">
+										<i class="fas fa-check"></i>
+									</div>
+																								<h4 class="info-title">SSA</h4>
+																				</a>
+																<p>The United States Social Security Administration is an independent agency of the U.S. federal government that administers Social Security, a social insurance program consisting of retirement, disability, and survivor benefits.<br /><br /><br /><br /></p>
+											</div>
+				</div>
+								<div class="col-xs-12 col-md-4 feature-box">
+					<div class="hestia-info">
+						<a href="https://www.catholiccharitiessf.org/" target="_blank">									<div class="icon" style="color:#307022">
+										<i class="fas fa-american-sign-language-interpreting"></i>
+									</div>
+																								<h4 class="info-title">Support</h4>
+																				</a>
+																<p>We are continuing to offer our vital legal immigration services during the mandatory shelter-in-place ordinance. As your safety and health and that of our employees is our top priority during this pandemic, we are conducting all consultations by appointment and over the phone.<br /><br /></p>
+											</div>
+				</div>
+				</div>		</div>
+									</div>
+					</section>
+				<section class="hestia-team " id="team" data-sorder="hestia_team" >
+						<div class="container">
+									<div class="row">
+						<div class="col-md-8 col-md-offset-2 text-center hestia-team-title-area">
+							<h2 class="hestia-title">Jobs For Immigrants </h2><h5 class="description">As an immigrant, one of the toughest things about settling into a new life in the United States can be getting a job. As the world’s leading economy, the United States has a vast labor market, and yet navigating it can be far from straightforward.  Here are the Top Resources for finding the job :</h5>						</div>
+					</div>
+					<div class="hestia-team-content"><div class="row"><div class="col-xs-12 col-ms-6 col-sm-6"><div class="card card-profile card-plain"><div class="col-md-5"><div class="card-image"><a href="https://www.upwardlyglobal.org/" target="_blank"><img class="img" src="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/uploads/2021/04/thumbnail_UpGlo-logo-300x219.jpg"  title="Upwardly Global " /></a></div></div><div class="col-md-7"><div class="content"><a href="https://www.upwardlyglobal.org/" target="_blank"><h4 class="card-title">Upwardly Global </h4><h6 class="category text-muted">None profit organization </h6><p class="card-description">This is the organization to help refugees and immigrant who are educated to find their professional jobs.</p></a></div></div></div></div><div class="col-xs-12 col-ms-6 col-sm-6"><div class="card card-profile card-plain"><div class="col-md-5"><div class="card-image"><a href="https://usahello.org/about-us/our-partners/#gref" target="_blank"><img class="img" src="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/uploads/2021/04/USAHello-facebook-page-1-300x119.jpg"  title="USA Hello" /></a></div></div><div class="col-md-7"><div class="content"><a href="https://usahello.org/about-us/our-partners/#gref" target="_blank"><h4 class="card-title">USA Hello</h4><h6 class="category text-muted">None profit organization</h6><p class="card-description">USAHello is a non-profit organization that uses the internet to help immigrants, asylum seekers, refugees, and the communities that welcome them.</p></a></div></div></div></div><div class="col-xs-12 col-ms-6 col-sm-6"><div class="card card-profile card-plain"><div class="col-md-5"><div class="card-image"><a href="https://www.immigrantwelcomecenter.org/" target="_blank"><img class="img" src="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/uploads/2021/04/IWC_3cLogo_New-300x239.jpg"  title="Immigrant Welcome Center" /></a></div></div><div class="col-md-7"><div class="content"><a href="https://www.immigrantwelcomecenter.org/" target="_blank"><h4 class="card-title">Immigrant Welcome Center</h4><h6 class="category text-muted">None profit Organization</h6><p class="card-description">An organization based primarily in Indianapolis, but with some jobs for elsewhere, the Immigrant Welcome Center is a non-profit that helps you find your feet as a new arrival in the United States, get connected with resources, and find work, including a job search engine.</p></a></div></div></div></div><div class="col-xs-12 col-ms-6 col-sm-6"><div class="card card-profile card-plain"><div class="col-md-5"><div class="card-image"><a href="https://www.twinist.com/" target="_blank"><img class="img" src="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/uploads/2021/04/Screen-Shot-2020-09-14-at-5.41.39-PM-300x134.png"  title="Twinist" /></a></div></div><div class="col-md-7"><div class="content"><a href="https://www.twinist.com/" target="_blank"><h4 class="card-title">Twinist</h4><h6 class="category text-muted">None profit organization</h6><p class="card-description">Twinist provides job and career listings through a job search function, a volunteering hub, and consultancy services on personal branding for new immigrants.</p></a></div></div></div></div></div></div>			</div>
+					</section>
+				<section class="hestia-contact contactus section-image" id="contact"
+				data-sorder="hestia_contact" style="background-image: url(http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/themes/hestia/assets/img/contact.jpg);">
+						<div class="container">
+								<div class="row">
+					<div class="col-md-5 hestia-contact-title-area" >
+													<h2 class="hestia-title">F.A.Q</h2>
+																			<h5 class="description">find frequently ask questions here:</h5>
+												<div class="hestia-description"><div class="hestia-info info info-horizontal"><div class="icon icon-primary"><i class="fas fa-map-marker-alt"></i></div><div class="description"><section class="o-grid__row o-block o-block--spacious seo-speakable"></section><section class="o-grid__col-8"><div class="o-block o-block--spacious"><div class="o-block o-block--copious"><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm">WHAT IS A GREEN CARD?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md"><span class=".js-faq-speakable">A “green card,” issued by U.S. Citizenship and Immigration Services (USCIS), provides proof of lawful permanent resident status, with authorization to live and work anywhere in the United States.</span> Most green cards must be renewed every 10 years, but conditional green cards based on marriage or investment must be replaced after the first 2 years.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm">WHAT IS USCIS?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md">U.S. Citizenship and Immigration Services (USCIS), part of the U.S. Department of Homeland Security (DHS), is the government agency that oversees legal immigration to the United States. USCIS is primarily responsible for approving green cards, naturalization, work permits, travel permits, and other “immigration benefits.”</p></div></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT IS A LAWFUL PERMANENT RESIDENT?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md ">A lawful permanent resident, also known as a “green card holder,” is a foreign national who is authorized to live and work anywhere in the United States, sponsor certain relatives for their own green cards, and ultimately apply for U.S. citizenship.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT IS CONDITIONAL PERMANENT RESIDENCE?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md"><span class=".js-faq-speakable">A conditional green card is valid for only 2 years, and the designation “CR1” on the physical card stands for “conditional resident.” </span>A conditional green card holder must file Form I-751 to “remove the conditions” and obtain a permanent green card. In most cases, a conditional green card is issued to a spouse who has been married for less than 2 years at the time their green card was first approved.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHY WOULD A GREEN CARD APPLICATION BE DENIED?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md"><span class=".js-faq-speakable">A green card application may be denied by the U.S. government for several reasons, including but not limited to mistakes on the required forms, missing documents, insufficient financial resources, or failure to demonstrate eligibility.</span> More details about possible reasons for green card denial can be found here.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm">CAN I WORK IN THE U.S. WHILE WAITING FOR MY GREEN CARD?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md "><span class=".js-faq-speakable">Anyone who already has a valid work visa (for example, an H-1B or L-1 visa) can usually continue working in the United States even while applying for a U.S. green card.</span> Otherwise, green card applicants aren’t allowed to start working in the United States until they obtain a work permit by filing Form I-765. Learn more here.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT IS THE VISA BULLETIN?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md">The Visa Bulletin, issued every month by the U.S. Department of State, shows which green card applications can move forward, based on when the I-130 petition that starts the green card process was originally filed. The visa bulletin exists because Congress caps the number of green cards that can be issued each year in certain categories, which has created several backlogs.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT IS A BIOMETRIC SCREENING?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md "><span class=".js-faq-speakable">During a biometric screening, a government representative records an individual’s fingerprints and takes their photos and signature, in order to check government records for any serious criminal history or relevant prior immigration violations. </span>The biometrics appointment is typically short and simple.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div></div></section><section class="o-grid__row o-block o-block--spacious seo-speakable"><header class="o-grid__col-2"><a id="marriage-green-cards" class="c-anchor"></a><hr class="o-block o-block--ample c-divider" /><h1 class="o-block c-type c-type--headline-sm c-type--emphasized">MARRIAGE GREEN CARDS</h1></header></section><section class="o-grid__col-8"><hr class="o-block o-block--ample c-divider u-hidden-sm-down" /><div class="o-block o-block--spacious"><div class="o-block o-block--copious"><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT IS A MARRIAGE GREEN CARD?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md">Most U.S. citizens and U.S. green card holders are entitled by law to sponsor their spouses for a green card, also known as “permanent residence status.” The total cost, wait time, and other details of the marriage green card process vary based on several factors.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm">HOW LONG AFTER MY MARRIAGE CAN I APPLY FOR A GREEN CARD?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md o-block o-block--ample c-type c-type--body-sans-md">A marriage-based green card can take between 10 and 38 months to process, depending on whether your new spouse is a U.S. citizen or green card holder and where you currently live.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT DOCUMENTS DO I NEED FOR A MARRIAGE GREEN CARD?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md">The required documents for a marriage green card can vary by situation, but in general the couple must provide evidence, such as proof that the sponsoring spouse is a U.S. citizen or permanent resident; a copy of their marriage certificate; evidence that the marriage is authentic; and evidence that the sponsoring spouse can financially support the spouse seeking a green card.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT IS THE DIFFERENCE BETWEEN A FIANCÉ VISA AND A MARRIAGE VISA?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md "><span class=".js-faq-speakable">A K-1, or “fiancé visa,” is a temporary visa available only to fiancés of U.S. citizens who are living outside of the United States and intend to get married within 90 days of arriving in the United States.</span> A marriage green card is available to spouses of both U.S. citizens and U.S. green card holders, whether living in the United States or abroad, and ultimately provides permanent residence.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm">HOW LONG DOES IT TAKE TO GET A GREEN CARD?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md">There are many ways to get a green card, and the timeline for each pathway is different. <span class=".js-faq-speakable">Depending on the situation, the marriage-based green card process can last as little as 10 months or over 3 years.</span></p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT IS A K-1 VISA?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md ">The K-1 fiancé visa is available to fiancés of U.S. citizens who are living outside of the United States and intend to get married within 90 days of arriving in the United States.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">HOW MUCH DOES IT COST TO GET A GREEN CARD?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md ">The total cost for each type of green card application can vary. Government fees for marriage-based green cards are $1,760 if the spouse seeking a green card lives in the United States and $1,200 if the spouse lives abroad, in addition to other costs, such as a fee for a required medical examination.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT ARE THE INCOME REQUIREMENTS FOR A MARRIAGE VISA?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md ">To be eligible for a marriage-based green card, the applicant must have a U.S. financial sponsor (usually the sponsoring spouse) who certifies in an Affidavit of Support (Form I-864) that their annual income is <span class=".js-faq-speakable">at least 125% of the Federal Poverty Guidelines (100% for military sponsors). The exact minimum income required — most commonly $21,137 for a couple with no children — depends on where the sponsor lives, the size of their household, and other factors.</span></p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">HOW SHOULD I PREPARE FOR MY MARRIAGE GREEN CARD INTERVIEW?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md">The final step in the marriage-based green card process is the interview, where the interviewing officer’s primary goal is to assess the authenticity of the marriage. <span class=".js-faq-speakable">Marriage green card interview questions can focus on the history of the couple’s relationship, as well as their daily activities and future plans as a married couple.</span></p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">HOW DO WE PROVE OUR MARRIAGE IS REAL OR “BONA FIDE”?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md">A “bona fide” marriage means 2 people who intend to build a future together and who did not marry only for immigration purposes.<span class=".js-faq-speakable"> Evidence of an authentic marriage can include joint financial documents, evidence of living together (cohabitation), tickets and photos from trips taken together, among others.</span></p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHEN CAN I VISIT MY SPOUSE IN THE UNITED STATES?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md ">Although a spouse seeking a green card from abroad can technically visit their spouse in the United States on a tourist visa, doing so is generally discouraged. Not only do immigration officers often deny entry to the United States upon learning of the tourist’s pending green card application, but “misrepresenting” one’s intentions for visiting could also jeopardize the application.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div></div></section><section class="o-grid__row o-block o-block--spacious seo-speakable"><header class="o-grid__col-2"><a id="common-forms" class="c-anchor"></a><hr class="o-block o-block--ample c-divider" /><h1 class="o-block c-type c-type--headline-sm c-type--emphasized">COMMON FORMS</h1></header></section><section class="o-grid__col-8"><hr class="o-block o-block--ample c-divider u-hidden-sm-down" /><div class="o-block o-block--spacious"><div class="o-block o-block--copious"><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT IS AN AFFIDAVIT OF SUPPORT (I-864)?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md ">Most green card applicants must have a U.S. sponsor who accepts financial responsibility for them upon arriving in the United States. An “Affidavit of Support” (Form I-864) is essentially a contract between the financial sponsor and the U.S. government, where the financial sponsor demonstrates that they meet the government’s income requirements.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div><div class="o-block o-block--copious"><hr class="o-block o-block--copious o-layout o-layout--block-center c-divider c-divider--narrow " /><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT IS FORM I-693 (MEDICAL EXAM RESULTS)?</h2><div class="o-block o-block--ample"><p class="o-block o-block--ample c-type c-type--body-sans-md">Form I-693 documents the results of the required medical examination for a spouse (or other family member) seeking a green card. <span class=".js-faq-speakable">For those applying from <em class="c-type--inline c-type--italic ">within</em> the United States, their medical exam is performed by a doctor approved by U.S. Citizenship and Immigration Services (USCIS), who provides a signed Form I-693.</span> For those applying from <em class="c-type--inline c-type--italic ">outside</em> the United States, a State Department-approved doctor performs the medical exam.</p></div><p class="o-block o-block--copious c-type c-type--body-sans-md"></p></div></div></section><section class="o-grid__row o-block o-block--spacious seo-speakable is-not-touching"><header class="o-grid__col-2"><a id="special-issues" class="c-anchor"></a><hr class="o-block o-block--ample c-divider" /><h1 class="o-block c-type c-type--headline-sm c-type--emphasized">SPECIAL ISSUES</h1></header></section><section class="o-grid__col-8 is-not-touching"><hr class="o-block o-block--ample c-divider u-hidden-sm-down" /><div class="o-block o-block--spacious is-not-touching"><div class="o-block o-block--copious is-not-touching"><h2 class="o-block o-block--ample c-type c-type--emphasized c-type--headline-sm ">WHAT IS THE “PUBLIC CHARGE” RULE?</h2><div class="o-block o-block--ample is-not-touching"><p class="o-block o-block--ample c-type c-type--body-sans-md">The “public charge” rule is a U.S. Department of Homeland Security (DHS) regulation that reduces the number of people who are eligible for green cards and temporary visas, by redefining what makes someone dependent on government benefits — or likely to use such benefits in the future.</p><p class="o-block o-block--ample c-type c-type--body-sans-md is-not-touching"><span class="is-not-touching"><b data-stringify-type="bold">IMPORTANT UPDATE — MARCH 9, 2021: </b>Both the new Department of Homeland Security (DHS) public charge rule and the Department of State (DOS) public charge policy are currently not in effect. The DHS rule was halted on March 9, 2021, while the DOS policy was paused indefinitely on July 29, 2020. This page reflects those policies, which initially took effect on Feb. 24, 2020, and will not be immediately updated according to the previous, longstanding guidance issued in 1999. </span></p></div></div></div></section></div></div></div>					</div>
+											<div class="col-md-5 col-md-offset-2 hestia-contact-form-col" >
+							<div class="card card-contact">
+																	<div class="header header-raised header-primary text-center">
+										<h4 class="card-title">Contact Us</h4>
+									</div>
+																<div class="content">
+									<div class="wpforms-container " id="wpforms-560"><form id="wpforms-form-560" class="wpforms-validate wpforms-form" data-formid="560" method="post" enctype="multipart/form-data" action="/" data-token="e1292864c691cfa67f1355382cb08a96"><noscript class="wpforms-error-noscript">Please enable JavaScript in your browser to complete this form.</noscript><div class="wpforms-field-container"><div id="wpforms-560-field_0-container" class="wpforms-field wpforms-field-name wpforms-one-half wpforms-first" data-field-id="0"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-560-field_0">Name <span class="wpforms-required-label">*</span></label><input type="text" id="wpforms-560-field_0" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][0]" placeholder="Your Name" required></div><div id="wpforms-560-field_3-container" class="wpforms-field wpforms-field-email wpforms-one-half" data-field-id="3"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-560-field_3">Email <span class="wpforms-required-label">*</span></label><input type="email" id="wpforms-560-field_3" class="wpforms-field-large wpforms-field-required" name="wpforms[fields][3]" placeholder="Your Email" required></div><div id="wpforms-560-field_4-container" class="wpforms-field wpforms-field-text" data-field-id="4"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-560-field_4">Subject</label><input type="text" id="wpforms-560-field_4" class="wpforms-field-large" name="wpforms[fields][4]" placeholder="Subject" ></div><div id="wpforms-560-field_2-container" class="wpforms-field wpforms-field-textarea" data-field-id="2"><label class="wpforms-field-label wpforms-label-hide" for="wpforms-560-field_2">Message <span class="wpforms-required-label">*</span></label><textarea id="wpforms-560-field_2" class="wpforms-field-medium wpforms-field-required" name="wpforms[fields][2]" placeholder="Your Message" required></textarea></div></div><div class="wpforms-submit-container" ><input type="hidden" name="wpforms[id]" value="560"><input type="hidden" name="wpforms[author]" value="0"><input type="hidden" name="wpforms[post_id]" value="608"><button type="submit" name="wpforms[submit]" class="wpforms-submit " id="wpforms-submit-560" value="wpforms-submit" aria-live="assertive" data-alt-text="Sending..." data-submit-text="Send message">Send message</button></div></form></div>  <!-- .wpforms-container -->								</div>
+							</div>
+						</div>
+										</div>
+							</div>
+					</section>
+							<footer class="footer footer-black footer-big">
+						<div class="container">
+																<div class="hestia-bottom-footer-content">					<div class="copyright pull-right">
+				IMMIGUIDE			</div>
+			</div>			</div>
+					</footer>
+				</div>
+	</div>
+            <div id="watsonconv-floating-box"></div>
+        <!-- Enter your scripts here --><link rel='stylesheet' id='font-awesome-5-all-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/themes/hestia/assets/font-awesome/css/all.min.css?ver=1.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='wpforms-base-css'  href='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/wpforms-lite/assets/css/wpforms-base.min.css?ver=1.6.6' type='text/css' media='all' />
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1' id='hoverintent-js-js'></script>
+<script type='text/javascript' id='admin-bar-js-before'>
+( function() {
+				function wpforms_admin_bar_menu_init() {
+					var template = document.getElementById( 'tmpl-wpforms-admin-menubar-data' ),
+						notifications = document.getElementById( 'wp-admin-bar-wpforms-notifications' );
+
+					if ( ! template ) {
+						return;
+					}
+
+					if ( ! notifications ) {
+						var menu = document.getElementById( 'wp-admin-bar-wpforms-menu-default' );
+						menu.insertAdjacentHTML( 'afterBegin', template.innerHTML );
+					} else {
+						notifications.insertAdjacentHTML( 'afterend', template.innerHTML );
+					}
+				};
+				document.addEventListener( 'DOMContentLoaded', wpforms_admin_bar_menu_init );
+			}() );
+</script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/admin-bar.min.js?ver=5.7.1' id='admin-bar-js'></script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/underscore.min.js?ver=1.8.3' id='underscore-js'></script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/backbone.min.js?ver=1.4.0' id='backbone-js'></script>
+<script type='text/javascript' id='wp-api-request-js-extra'>
+/* <![CDATA[ */
+var wpApiSettings = {"root":"http:\/\/ec2-100-27-0-58.compute-1.amazonaws.com\/wp-json\/","nonce":"f74cce7fad","versionString":"wp\/v2\/"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/api-request.min.js?ver=5.7.1' id='wp-api-request-js'></script>
+<script type='text/javascript' id='wp-api-js-extra'>
+/* <![CDATA[ */
+var wpApiSettings = {"root":"http:\/\/ec2-100-27-0-58.compute-1.amazonaws.com\/wp-json\/","nonce":"f74cce7fad"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/wp-api.min.js?ver=5.7.1' id='wp-api-js'></script>
+<script type='text/javascript' id='watsonconv-chat-app-js-extra'>
+/* <![CDATA[ */
+var watsonconvSettings = {"delay":"0","minimized":"no","position":["bottom","right"],"title":"","clearText":"Clear Messages","messagePrompt":"Type a Message","fullScreenQuery":"screen and (max-width:640px)","showSendBtn":"no","fabConfig":{"iconPos":"left","text":""},"callConfig":{"useTwilio":"no","configured":false,"recipient":false,"callTooltip":false,"callButton":false,"callingText":false},"context":{},"nonce":"f74cce7fad","apiUrl":"http:\/\/ec2-100-27-0-58.compute-1.amazonaws.com\/index.php?rest_route=\/watsonconv\/v1\/message","typingDelayFromPlugin":"no","typingDelayTime":"1000","typingMaxWaitingtime":"1000","messageAfterError":"","clearChat":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/conversation-watson/app.js?ver=0.8.30' id='watsonconv-chat-app-js'></script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/comment-reply.min.js?ver=5.7.1' id='comment-reply-js'></script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/themes/hestia/assets/bootstrap/js/bootstrap.min.js?ver=1.0.2' id='jquery-bootstrap-js'></script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/jquery/ui/core.min.js?ver=1.12.1' id='jquery-ui-core-js'></script>
+<script type='text/javascript' id='hestia_scripts-js-extra'>
+/* <![CDATA[ */
+var requestpost = {"ajaxurl":"http:\/\/ec2-100-27-0-58.compute-1.amazonaws.com\/wp-admin\/admin-ajax.php","disable_autoslide":"","masonry":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/themes/hestia/assets/js/script.min.js?ver=3.0.16' id='hestia_scripts-js'></script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-includes/js/wp-embed.min.js?ver=5.7.1' id='wp-embed-js'></script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/wpforms-lite/assets/js/jquery.validate.min.js?ver=1.19.0' id='wpforms-validation-js'></script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/wpforms-lite/assets/js/mailcheck.min.js?ver=1.1.2' id='wpforms-mailcheck-js'></script>
+<script type='text/javascript' src='http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-content/plugins/wpforms-lite/assets/js/wpforms.js?ver=1.6.6' id='wpforms-js'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wpforms_settings = {"val_required":"This field is required.","val_email":"Please enter a valid email address.","val_email_suggestion":"Did you mean {suggestion}?","val_email_suggestion_title":"Click to accept this suggestion.","val_email_restricted":"This email address is not allowed.","val_number":"Please enter a valid number.","val_number_positive":"Please enter a valid positive number.","val_confirm":"Field values do not match.","val_checklimit":"You have exceeded the number of allowed selections: {#}.","val_limit_characters":"{count} of {limit} max characters.","val_limit_words":"{count} of {limit} max words.","val_recaptcha_fail_msg":"Google reCAPTCHA verification failed, please try again later.","val_empty_blanks":"Please fill out all blanks.","uuid_cookie":"","locale":"en","wpforms_plugin_url":"http:\/\/ec2-100-27-0-58.compute-1.amazonaws.com\/wp-content\/plugins\/wpforms-lite\/","gdpr":"","ajaxurl":"http:\/\/ec2-100-27-0-58.compute-1.amazonaws.com\/wp-admin\/admin-ajax.php","mailcheck_enabled":"1","mailcheck_domains":[],"mailcheck_toplevel_domains":["dev"],"is_ssl":""}
+/* ]]> */
+</script>
+
+<script type="text/html" id="tmpl-wpforms-admin-menubar-data">
+	<li id="wp-admin-bar-wpforms-form-id-560" class="menupop wpforms-menu-form wpforms-menu-form-last">
+		<div class="ab-item ab-empty-item" aria-haspopup="true"><span class="wp-admin-bar-arrow" aria-hidden="true"></span>Hestia</div>
+		<div class="ab-sub-wrapper">
+			<ul id="wp-admin-bar-wpforms-form-id-560-default" class="ab-submenu">
+							<li id="wp-admin-bar-wpforms-form-id-560-edit">
+					<a class="ab-item" href="http://ec2-100-27-0-58.compute-1.amazonaws.com/wp-admin/admin.php?page=wpforms-builder&#038;view=fields&#038;form_id=560">Edit Form</a>
+				</li>
+												</ul>
+		</div>
+	</li>
+</script>
+</body>
+</html>
