@@ -19,7 +19,7 @@ Nonimmigrant student
 
 **Dataset** : 
 
-Most of the frequently asked questions and answers can be found by scraping the Quota, Reddit etc.. . For the detailed or specific questions, the user will be contacted to the experts. 
+Most of the frequently asked questions and answers can be found by scraping the Quota, Reddit etc.. US government websites are the sources for answers as well. For the detailed or specific questions, the user will be contacted to the experts. 
 
 
 ## Project Architecture 
