@@ -25,7 +25,5 @@ Most of the frequently asked questions and answers can be found by scraping the 
 ## Project Architecture 
 
 
-![image](https://user-images.githubusercontent.com/29173069/110276206-84304300-7f87-11eb-91a7-ba401b4346cc.png)
-
-Screen Shot 2021-05-05 at 7.33.12 PM![image](https://user-images.githubusercontent.com/29173069/117520307-64ec6c80-af5c-11eb-91ba-dbbe4aea3ef3.png)
+![image](https://user-images.githubusercontent.com/29173069/117520307-64ec6c80-af5c-11eb-91ba-dbbe4aea3ef3.png)
 
